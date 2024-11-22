@@ -1,6 +1,6 @@
 # Proyecto Literatura - literAlura
 
-Bienvenido al proyecto literAlura, una aplicación Java basada en Spring Boot que te permite gestionar libros y autores de manera eficiente y fácil. 🎉
+Bienvenido al proyecto literAlura, una aplicación Java basada en Spring Boot que permite gestionar libros y autores de manera eficiente y fácil. 🎉
 
 ## Descripción del Proyecto 📚
 
@@ -11,7 +11,7 @@ El proyecto literAlura está diseñado para ayudar a los amantes de la literatur
 1. **Obtención de Datos**: El programa toma libros de la API [GutenDex](https://gutendex.com/).
 2. **Conversión a Objetos Java**: Los datos obtenidos de la API se convierten en objetos Java utilizando la clase `JsonParser`.
 3. **Procesamiento**: Los datos se procesan para asegurarse de que los libros y autores no se dupliquen en la base de datos.
-4. **Almacenamiento**: Los libros y autores procesados se guardan en una base de datos SQL compatible (PostgreSQL, MySQL, MariaDB, SQL Server, H2).
+4. **Almacenamiento**: Los libros y autores procesados se guardan en una base de datos SQL compatible PostgreSQL.
 
 ### Desafío de Alura
 
@@ -30,7 +30,7 @@ Este proyecto es una solución al desafío del challenge de Alura, donde se nos 
 - **Java 11+**
 - **Spring Boot 2.6.4**
 - **Spring Data JPA**
-- **PostgreSQL**, **MySQL**, **MariaDB**, **SQL Server**, **H2**
+- **PostgreSQL**
 - **Jackson**
 - **Maven**
 
@@ -42,10 +42,10 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 
 - Java 11 o superior
 - Maven 3.6 o superior
-- Una base de datos SQL (PostgreSQL, MySQL, MariaDB, SQL Server, H2)
+- Una base de datos SQL PostgreSQL
 
 ### Dependencias
-Asegúrate de agregar las dependencias necesarias en tu archivo `pom.xml` para la base de datos que deseas usar.
+Asegúrese de agregar las dependencias necesarias en el archivo `pom.xml` para la base de datos que desea usar.
 
 ### Configurar tu base de datos en el archivo application.properties
 ```
